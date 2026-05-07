@@ -1,4 +1,4 @@
-# Contractor Growth Marketplace — Static Site
+﻿# Contractor Growth Marketplace â€” Static Site
 
 Professional static site prepared for GitHub Pages.
 
@@ -16,7 +16,7 @@ Professional static site prepared for GitHub Pages.
 
 Replace placeholders:
 
-- `hello@example.com`
+- `contractorgrowthmarketplace@gmail.com`
 - `https://example.com/` in `sitemap.xml` and `robots.txt`
 - Any future affiliate links
 
@@ -27,3 +27,4 @@ GitHub Pages.
 ## Notes
 
 No external scripts are required for the initial launch. This keeps the site simple, fast, and free.
+
