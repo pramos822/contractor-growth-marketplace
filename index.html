@@ -15,7 +15,7 @@
     .hero{background:radial-gradient(circle at top right,#18355d,var(--dark) 58%);color:var(--text);padding:28px 20px 80px}
     .wrap{max-width:1120px;margin:0 auto}.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:70px}.logo{font-size:24px;font-weight:900;letter-spacing:-.04em}.tag{border:1px solid rgba(255,255,255,.18);color:var(--muted);padding:8px 14px;border-radius:999px;font-size:14px}
     .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:38px;align-items:center}h1{font-size:58px;line-height:.98;margin:0 0 20px;letter-spacing:-.06em}.sub{font-size:20px;line-height:1.55;color:var(--muted);margin-bottom:28px}.cta{display:inline-block;background:var(--green);color:#07180f;text-decoration:none;font-weight:900;padding:16px 22px;border-radius:14px}.note{color:var(--blue);font-weight:800;margin-left:14px}.panel{background:rgba(17,27,46,.78);border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.28)}.row{display:flex;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(255,255,255,.1);padding:15px 0;color:var(--muted)}.row strong{color:#fff}
-    section{padding:54px 20px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.box{background:white;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 40px rgba(21,32,51,.06)}.box h3{margin-top:0;font-size:22px}.box p,.box li{color:#526173;line-height:1.58}.wide{grid-column:span 2}.kicker{font-weight:900;color:#087f5b;text-transform:uppercase;font-size:13px;letter-spacing:.08em}.disclosure{font-size:13px;color:#718096}.darkbox{background:#0f1a2c;color:white}.darkbox p,.darkbox li{color:#b8c5d6}footer{text-align:center;color:#718096;padding:30px 20px 50px}.tools{display:flex;flex-wrap:wrap;gap:10px}.chip{background:#ecfdf3;color:#087f5b;padding:8px 11px;border-radius:999px;font-weight:800;font-size:13px}
+    section{padding:54px 20px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.box{background:white;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 40px rgba(21,32,51,.06)}.box h3{margin-top:0;font-size:22px}.box p,.box li{color:#526173;line-height:1.58}.wide{grid-column:span 2}.kicker{font-weight:900;color:#087f5b;text-transform:uppercase;font-size:13px;letter-spacing:.08em}.disclosure{font-size:13px;color:#718096}.darkbox{background:#0f1a2c;color:white}.darkbox p,.darkbox li{color:#b8c5d6}footer{text-align:center;color:#718096;padding:30px 20px 50px}.tools{display:flex;flex-wrap:wrap;gap:10px}.chip{background:#ecfdf3;color:#087f5b;padding:8px 11px;border-radius:999px;font-weight:800;font-size:13px}.visual{padding:0;overflow:hidden}.visual img{display:block;width:100%;height:auto}.visual-copy{padding:18px 24px 24px}.visual-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}.visual-card{background:white;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 12px 40px rgba(21,32,51,.06)}.visual-card img{display:block;width:100%;height:auto}.visual-card .caption{padding:16px 18px 18px}.caption p{margin:0;color:#526173;line-height:1.55}.caption strong{display:block;margin-bottom:6px}.media-badge{display:inline-block;background:rgba(101,211,164,.16);color:#087f5b;border-radius:999px;padding:6px 10px;font-weight:900;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
     @media(max-width:860px){.hero-grid,.grid{grid-template-columns:1fr}.wide{grid-column:span 1}h1{font-size:42px}.note{display:block;margin:14px 0 0}.nav{align-items:flex-start;gap:10px;flex-direction:column}}
   </style>
 </head>
@@ -29,12 +29,15 @@
           <p class="sub">Curated software, field gear, templates, and automation ideas for roofing, HVAC, and home service businesses that want cleaner operations and better follow-up.</p>
           <a class="cta" href="start-here.html">Start here</a><span class="note">Start free. Upgrade only when it works.</span>
         </div>
-        <div class="panel">
-          <div class="row"><span>Lead capture</span><strong>Forms + CRM</strong></div>
-          <div class="row"><span>Follow-up</span><strong>Email/SMS templates</strong></div>
-          <div class="row"><span>Reviews</span><strong>Request workflows</strong></div>
-          <div class="row"><span>Field gear</span><strong>Buying guides</strong></div>
-          <div class="row"><span>Automation</span><strong>Free-first stack</strong></div>
+        <div class="panel visual">
+          <img src="assets/hero-contractor-tools.png" alt="Contractor tools editorial hero image" />
+          <div style="padding:18px 20px 22px">
+            <div class="row"><span>Lead capture</span><strong>Forms + CRM</strong></div>
+            <div class="row"><span>Follow-up</span><strong>Email/SMS templates</strong></div>
+            <div class="row"><span>Reviews</span><strong>Request workflows</strong></div>
+            <div class="row"><span>Field gear</span><strong>Buying guides</strong></div>
+            <div class="row" style="border-bottom:0"><span>Automation</span><strong>Free-first stack</strong></div>
+          </div>
         </div>
       </div>
     </div>
@@ -46,6 +49,17 @@
     <div class="box"><h3>Software</h3><p>CRM, scheduling, review management, automation, forms, email, AI tools, and website builders.</p><p><a href="contractor-software.html">View software guide</a> · <a href="best-contractor-tools.html">Best tools hub</a></p></div>
     <div class="box"><h3>Field gear</h3><p>Inspection cameras, tablets, laser measures, safety gear, jobsite documentation tools, and office gear.</p><p><a href="contractor-gear.html">View gear categories</a> · <a href="best-contractor-starter-kit.html">Starter kit</a> · <a href="best-inspection-cameras-for-roofers-hvac.html">Inspection camera guide</a> · <a href="best-moisture-meters-for-roof-leaks-inspections.html">Moisture meter guide</a> · <a href="best-thermal-cameras-for-hvac-home-inspections.html">Thermal camera guide</a> · <a href="best-laser-measures-for-contractors.html">Laser measure guide</a> · <a href="best-field-tablets-for-contractors.html">Field tablet guide</a></p></div>
     <div class="box"><h3>Templates</h3><p>Lead trackers, quote follow-up messages, review requests, SOPs, and free checklists.</p></div>
+  </div></section>
+
+  <section><div class="wrap visual-grid">
+    <div class="visual-card">
+      <img src="assets/hero-contractor-tools.png" alt="Editorial hero image with contractor tools" />
+      <div class="caption"><div class="media-badge">Visual guide</div><strong>Designed like a premium buying guide</strong><p>Use visuals to make the affiliate site feel real, editorial, and worth trusting.</p></div>
+    </div>
+    <div class="visual-card">
+      <img src="assets/starter-kit-collage.png" alt="Comparison collage of contractor tools" />
+      <div class="caption"><div class="media-badge">Starter kit</div><strong>Five tools in one visual stack</strong><p>A simple, scannable way to present the core contractor tools without clutter.</p></div>
+    </div>
   </div></section>
 
   <section id="toolkit"><div class="wrap grid">
